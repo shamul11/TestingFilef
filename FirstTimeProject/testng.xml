@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing">
+
+	<test name="Login test ">
+		<classes>
+			<class name="test.FirstTest"></class>
+		</classes>
+	</test>
+
+	<test name="2nd test">
+		<classes>
+			<class name="test.SecondTest"></class>
+		</classes>
+	</test>
+
+	<test name="Add product">
+		<classes>
+			<class name="com.qtpselenium.salesforce.testcases.AddProduct"></class>
+		</classes>
+	</test>
+</suite>
