@@ -8,9 +8,10 @@ public class TestNewSite {
 	@Test
 	public static void main(String[] args) {
 		
-		WebDriver driver = new FirefoxDriver();
+		System.out.println("this is a test for git repository");
+		System.out.println("this is 2nd change");
 		
-		driver.get("http://google.com");
+		
 		
 		
 		
