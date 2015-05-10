@@ -11,6 +11,8 @@ public class NewTest {
 		
 		WebDriver driver = new FirefoxDriver();
 		 driver.get("http://yahoo.com");
+		 
+		 System.out.println("testing git");
 
 	}
 
